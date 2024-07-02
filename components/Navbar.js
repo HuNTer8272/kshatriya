@@ -1,4 +1,4 @@
-import { logo, titleImage } from '@/helper/ImageImports'
+import { logo, title_image } from '@/helper/ImageImports'
 import Image from 'next/image'
 import React from 'react'
 import { LuMenu } from "react-icons/lu";
@@ -11,7 +11,7 @@ const Navbar = () => {
     {/* logo and title */}
     <div className="flex items-center bg-transparent bg-purple-400">
       <Image src={logo} className='size-12 ' alt="logo" />
-      <Image src={titleImage} className='w-[8rem] ml-2 mt-4 h-[3rem]' alt="logo" />
+      <Image src={title_image} className='w-[8rem] ml-2 mt-4 h-[3rem]' alt="logo" />
     </div>
     {/* hamburger */}
     <div className="flex items-center justify-center bg-transparent bg-blue-300">

@@ -1,0 +1,11 @@
+.gradient_text{
+    background: linear-gradient(to bottom, #ffff, #656565); /* Define your gradient colors */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    background-clip: text;
+    color: transparent; /* Set text color to transparent */
+  
+}
+
+.gradient_bg {
+    background: linear-gradient(to bottom, #ffff, #656565); ;
+}
