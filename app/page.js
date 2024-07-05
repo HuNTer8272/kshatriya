@@ -64,7 +64,7 @@ const page = () => {
           <p className='font-extralight   w-[40rem] text-[18px] text-center mt-8'>At Kashatriya Studios, we're passionate about bringing your stories to life with our cutting-edge animation services. Whether you have a project in mind, need a quote, or just want to learn more about what we do, we'd love to hear from you!</p>
       </div>
      </div>
-     <Footer/>
+     {/* <Footer/> */}
     </>
   )
 }
