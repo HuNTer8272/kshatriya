@@ -28,25 +28,25 @@ const Banner = () => {
         <div className="flex items-center space-x-2">
             {/* straight line */}
             <div className="bg-white w-[1px] h-[2rem]"></div>
-            <p className='font-semibold noto-sans text-[0.9rem]'>Commercials</p>
+            <p className='font-semibold noto-sans text-[0.9rem] cursor-pointer hover:scale-[1.08] transition-all ease-in-out'>Commercials</p>
         </div>
          {/* short films */}
         <div className="flex items-center space-x-2">
             {/* straight line */}
             <div className="bg-white w-[1px] h-[2rem]"></div>
-            <p className='font-semibold noto-sans text-[0.9rem]'>Short Films</p>
+            <p className='font-semibold noto-sans text-[0.9rem] cursor-pointer hover:scale-[1.08] transition-all ease-in-out'>Short Films</p>
         </div>
         {/* posters */}
         <div className="flex items-center space-x-2">
             {/* straight line */}
             <div className="bg-white w-[1px] h-[2rem]"></div>
-            <p className='font-semibold noto-sans text-[0.9rem]'>Posters</p>
+            <p className='font-semibold noto-sans text-[0.9rem] cursor-pointer hover:scale-[1.08] transition-all ease-in-out'>Posters</p>
         </div>
         {/* vfx */}
         <div className="flex items-center space-x-6">
             {/* straight line */}
             <div className="bg-white w-[1px] h-[2rem]"></div>
-            <p className='font-semibold noto-sans text-[0.9rem]'>VFX</p>
+            <p className='font-semibold noto-sans text-[0.9rem] cursor-pointer hover:scale-[1.08] transition-all ease-in-out'>VFX</p>
             {/* straight line */}
             <div className="bg-white w-[1px] h-[2rem]"></div>
         </div>
@@ -58,25 +58,25 @@ const Banner = () => {
         <div className="flex items-center space-x-2">
             {/* straight line */}
             <div className="bg-white w-[1px] h-[2rem]"></div>
-            <p className='font-semibold noto-sans text-[0.9rem]'>CGI</p>
+            <p className='font-semibold noto-sans text-[0.9rem] cursor-pointer hover:scale-[1.08] transition-all ease-in-out'>CGI</p>
         </div>
          {/* short films */}
         <div className="flex items-center space-x-2">
             {/* straight line */}
             <div className="bg-white w-[1px] h-[2rem]"></div>
-            <p className='font-semibold noto-sans text-[0.9rem]'>2D</p>
+            <p className='font-semibold noto-sans text-[0.9rem] cursor-pointer hover:scale-[1.08] transition-all ease-in-out'>2D</p>
         </div>
         {/* posters */}
         <div className="flex items-center space-x-8">
             {/* straight line */}
             <div className="bg-white w-[1px] h-[2rem]"></div>
-            <p className='font-semibold noto-sans text-[0.9rem]'>3D</p>
+            <p className='font-semibold noto-sans text-[0.9rem] cursor-pointer hover:scale-[1.08] transition-all ease-in-out'>3D</p>
             {/* straight line */}
             <div className="bg-white w-[1px] h-[2rem]"></div>
         </div>
     </div>
     {/* play button */}
-    <button onClick={handleClick} className='flex items-center p-2 px-6 mt-12 space-x-3 m-auto bg-[#141213] rounded-full'><FaRegPlayCircle className='text-[1.2rem]'/><p className='text-[1rem]'>Play Reel</p></button>
+    <button onClick={handleClick} className='flex hover:scale-[1.06] hover:border-white hover:border-2 transition-all ease-in-out  hover:shadow-md items-center p-2 px-6 mt-12 space-x-3 m-auto bg-[#141213] rounded-full'><FaRegPlayCircle className='text-[1.2rem]'/><p className='text-[1rem]'>Play Reel</p></button>
   {/* <h1 className='text-5xl font-bold text-white'>Kshatriya</h1> */}
 </div>
   )
