@@ -47,8 +47,8 @@ const page = () => {
       <div className="bg-[#f5f5f5] text-[#070707] flex items-center flex-col p-3 h-[30rem]">
         <h1 className='font-semibold text-[1.8rem] mt-3'>Our Services</h1>
         <p className='w-[35rem] mt-5 text-center '> At Kshatriya Studios, we are more than just a production house we are storytellers, artists, and visionaries dedicated to crafting immersive experiences that captivate audiences worldwide.</p>
-        <div className="grid grid-cols-3 grid-rows-3  mt-14 w-[90rem] gap-3 place-items-center">
-          {/* <div className={`${homeStyle.circle}`}> */}
+        <div className="grid grid-cols-3 grid-rows-3  mt-14 w-[90rem] gap-3 ">
+            {/* <div className={`${homeStyle.circle}`}> */}
             <div className={`bg-[#D9D9D9] flex flex-col justify-center items-center mb-3 rounded-full p-5 ${homeStyle.circle}`}>
               <div className={`${homeStyle.icon}`}><MdOutlineSlowMotionVideo /></div>
                 <div className={`${homeStyle.circletxt}`}>2D Animation</div>
@@ -61,25 +61,15 @@ const page = () => {
               <div className={`${homeStyle.icon}`}><MdOutlineSlowMotionVideo /></div>
                 <div className={`${homeStyle.circletxt}`}>2D Animation</div>
             </div>
-          {/* </div> */}
-            {/* <div className='bg-[#D9D9D9] h-[3rem] flex justify-center items-center mb-3 rounded-xl'>2D/3D Animation</div>
-            <div className='bg-[#D9D9D9] h-[3rem] flex justify-center items-center mb-3 rounded-xl'>2D/3D Animation</div>
-            <div className='bg-[#D9D9D9] h-[3rem] flex justify-center items-center mb-3 rounded-xl'>2D/3D Animation</div>
-            <div className='bg-[#D9D9D9] h-[3rem] flex justify-center items-center mb-3 rounded-xl'>2D/3D Animation</div>
-            <div className='bg-[#D9D9D9] h-[3rem] flex justify-center items-center mb-3 rounded-xl'>2D/3D Animation</div>
-            <div className='bg-[#D9D9D9] h-[3rem] flex justify-center items-center mb-3 rounded-xl'>2D/3D Animation</div>
-            <div className='bg-[#D9D9D9] h-[3rem] flex justify-center items-center mb-3 rounded-xl'>2D/3D Animation</div>
-            <div className='bg-[#D9D9D9] h-[3rem] flex justify-center items-center mb-3 rounded-xl'>2D/3D Animation</div>
-            <div className='bg-[#D9D9D9] h-[3rem] flex justify-center items-center mb-3 rounded-xl'>2D/3D Animation</div> */}
         </div>
       </div>
       {/* get in touch */}
       <div className='h-[20rem] p-5 items-center flex-col flex justify-center'>
           <h1 className='font-semibold text-[1.5rem] mt-10'>Want to get in touch ? </h1>
-          <p className='font-extralight   w-[40rem] text-center mt-8'>At Kashatriya Studios, we're passionate about bringing your stories to life with our cutting-edge animation services. Whether you have a project in mind, need a quote, or just want to learn more about what we do, we'd love to hear from you!</p>
+          <p className='font-extralight   w-[40rem] text-[18px] text-center mt-8'>At Kashatriya Studios, we're passionate about bringing your stories to life with our cutting-edge animation services. Whether you have a project in mind, need a quote, or just want to learn more about what we do, we'd love to hear from you!</p>
       </div>
      </div>
-     <Footer/>
+     {/* <Footer/> */}
     </>
   )
 }
