@@ -1,3 +1,5 @@
+'use client'
+
 import Navbar from '@/components/Navbar'
 import {lacoste, sneaker_poster_yellow, yellow_poster } from '@/helper/ImageImports'
 import Image from 'next/image'
@@ -15,6 +17,15 @@ const page = () => {
   const handleImageClick = () => {
     fileInputRef.current.click();
   };
+
+  const handleFocus = (e) => {
+    e.target.style.setProperty('--placeholder-font-weight', 'bold');
+  };
+
+  const handleBlur = (e) => {
+    e.target.style.setProperty('--placeholder-font-weight', 'normal');
+  };
+
   return (
     <div>
         <Navbar/>
@@ -85,21 +96,27 @@ const page = () => {
               <form className={`w-[40%] flex flex-col gap-10`}>
                 {/* <div className='bg-transparent flex flex-col items-start gap-7'> */}
                  <div>
-                    <input className={`${homeStyle.forminput}`} type='text' placeholder="What's your name"/>
+                    <input className={`${homeStyle.forminput}`} type='text' placeholder="What's your name" onFocus={handleFocus} onBlur={handleBlur}/>
                     <div className='h-[1px] bg-white rounded-md'></div>
                  </div>
                  <div>
-                    <input className={`${homeStyle.forminput}`} type='text'placeholder="You're email"/>
+                    <input className={`${homeStyle.forminput}`} type='text'placeholder="You're email" onFocus={handleFocus} onBlur={handleBlur}/>
                     <div className='h-[1px] bg-white rounded-md'></div>
                  </div>
+                 
                   <div>
-                    <input className={`${homeStyle.forminput}`} type='text'placeholder="Tell us about your project"/>
-                    <div className='h-[1px] bg-white rounded-md'></div>
+                    <div className="flex flex-row gap-[17rem]">
+                      <input className={`${homeStyle.forminput}`} type='text'placeholder="Tell us about your project" onFocus={handleFocus} onBlur={handleBlur}/>
+                      <PiPaperclipThin onClick={handleImageClick} className="cursor-pointer rotate-180 h-10"/>
+                      <input type='file' ref={fileInputRef} className="hidden" />
+                    </div>
+                      <div className='h-[1px] bg-white rounded-md'></div>
                   </div>
-                {/* </div> */}
-                <Image src=''/>
-                <input type='file'/>
-                <div className='flex justify-center items-center gap-5'>
+                  {/* </div> */}
+                  {/* <Image src={PiPaperclipThin} alt="Upload" onClick={handleImageClick} className="cursor-pointer"/> */}
+                  
+                
+                <div className='flex justify-end items-center gap-5'>
                   <input type='submit'/>
                   <FaArrowRightLong/>
                 </div>

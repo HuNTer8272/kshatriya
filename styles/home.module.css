@@ -154,6 +154,11 @@
 
 .forminput{
     background: transparent;
+    --placeholder-font-weight: normal;
+}
+
+.forminput::placeholder {
+    font-weight: var(--placeholder-font-weight);
 }
 
 .forminput:focus{
