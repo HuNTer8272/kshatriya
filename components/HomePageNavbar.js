@@ -4,7 +4,7 @@ import React from 'react'
 import { LuMenu } from "react-icons/lu";
 
 
-const Navbar = () => {
+const HomePageNavbar = () => {
   return (
     <nav className='absolute z-10 flex justify-between w-full p-3 px-5 isolate '>
 
@@ -35,4 +35,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default HomePageNavbar
