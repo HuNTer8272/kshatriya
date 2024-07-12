@@ -6,10 +6,10 @@ import { LuMenu } from "react-icons/lu";
 
 const HomePageNavbar = () => {
   return (
-    <nav className='absolute z-10 flex justify-between w-full p-3 px-5 isolate '>
+    <nav className='relative z-10 flex justify-between w-full p-3 px-5 isolate '>
 
     {/* logo and title */}
-    <div className="fixed flex items-center bg-transparent bg-purple-400">
+    <div className="flex items-center bg-transparent bg-purple-400">
       <Image src={logo} className='size-12 ' alt="logo" />
       <Image src={title_image} className='w-[10rem] ml-2 mt-4 h-[6rem]' alt="logo" />
     </div>
@@ -21,7 +21,7 @@ const HomePageNavbar = () => {
           <a href="">
           <li className="relative after:bg-white cursor-pointer after:content-[''] after:transition-all after:ease-in-out hover:after:w-full after:-bottom-1 after:left-0 after:absolute after:w-[0px] after:h-[2px]">Home</li>
           </a>
-          <a href="">
+          <a href="/projects">
           <li className="relative after:bg-white cursor-pointer after:content-[''] after:transition-all after:ease-in-out hover:after:w-full after:-bottom-1 after:left-0 after:absolute after:w-[0px] after:h-[2px]">Projects</li>
           </a>
           <a href="/aboutus">

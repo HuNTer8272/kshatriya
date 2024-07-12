@@ -30,7 +30,7 @@ const Footer = () => {
             <ul className='flex mt-16 text-xl font-semibold justify-evenly '>
                 <li className='cursor-pointer'>Home</li>
                 <li className='cursor-pointer'>About</li>
-                <li className='cursor-pointer'>Our Projects</li>
+                <a href='/projects'><li className='cursor-pointer'>Our Projects</li></a>
                 {/* <li className='cursor-pointer'>Contact Us</li> */}
             </ul>
         </div>

@@ -5,6 +5,7 @@ import { logo } from '@/helper/ImageImports'
 import Image from 'next/image'
 import React from 'react'
 import homeStyle from "../styles/home.module.css"
+import { MdOutlineSlowMotionVideo } from "react-icons/md";
 
 const page = () => {
   return (
@@ -45,17 +46,21 @@ const page = () => {
       {/* our services  */}
       <div className="bg-[#f5f5f5] text-[#070707] flex items-center flex-col p-3 h-[30rem]">
         <h1 className='font-semibold text-[1.8rem] mt-3'>Our Services</h1>
-        <p className='w-[35rem] mt-5 text-center text-[18px] '> At Kshatriya Studios, we are more than just a production house we are storytellers, artists, and visionaries dedicated to crafting immersive experiences that captivate audiences worldwide.</p>
-        <div className="grid grid-cols-3 grid-rows-3  mt-14 w-[65rem] gap-3 ">
-            <div className='bg-[#D9D9D9] h-[3rem] flex justify-center items-center font-semibold w-[20rem] text-[20px] mb-3 rounded-xl'>2D/3D Animation</div>
-            <div className='bg-[#D9D9D9] h-[3rem] flex justify-center items-center font-semibold w-[20rem] mb-3 text-[20px] rounded-xl'>Graphic Designing</div>
-            <div className='bg-[#D9D9D9] h-[3rem] flex justify-center items-center font-semibold w-[20rem] mb-3 text-[20px] rounded-xl'>Digital Illustrations</div>
-            <div className='bg-[#D9D9D9] h-[3rem] flex justify-center items-center font-semibold w-[20rem] mb-3 text-[20px] rounded-xl'>Motion Graphics</div>
-            <div className='bg-[#D9D9D9] h-[3rem] flex justify-center items-center font-semibold w-[20rem] mb-3 text-[20px] rounded-xl'>Storyboarding</div>
-            <div className='bg-[#D9D9D9] h-[3rem] flex justify-center items-center font-semibold w-[20rem] mb-3 text-[20px] rounded-xl'>Video Editing</div>
-            <div className='bg-[#D9D9D9] h-[3rem] flex justify-center items-center font-semibold w-[20rem] mb-3 text-[20px] rounded-xl'>Cartoons & Comics</div>
-            <div className='bg-[#D9D9D9] h-[3rem] flex justify-center items-center font-semibold w-[20rem] mb-3 text-[20px] rounded-xl'>Advertising & logo</div>
-            <div className='bg-[#D9D9D9] h-[3rem] flex justify-center items-center font-semibold w-[20rem] mb-3 text-[20px] rounded-xl'>Social Media Design</div>
+        <p className='w-[35rem] mt-5 text-center '> At Kshatriya Studios, we are more than just a production house we are storytellers, artists, and visionaries dedicated to crafting immersive experiences that captivate audiences worldwide.</p>
+        <div className="grid grid-cols-3 grid-rows-3  mt-14 w-[90rem] gap-3 ">
+            {/* <div className={`${homeStyle.circle}`}> */}
+            <div className={`bg-[#D9D9D9] flex flex-col justify-center items-center mb-3 rounded-full p-5 ${homeStyle.circle}`}>
+              <div className={`${homeStyle.icon}`}><MdOutlineSlowMotionVideo /></div>
+                <div className={`${homeStyle.circletxt}`}>2D Animation</div>
+            </div>
+            <div className={`bg-[#D9D9D9] flex justify-center items-center mb-3 rounded-full p-5 ${homeStyle.circle}`}>
+              <div className={`${homeStyle.icon}`}><MdOutlineSlowMotionVideo /></div>
+                <div className={`${homeStyle.circletxt}`}>2D Animation</div>
+            </div>
+            <div className={`bg-[#D9D9D9] flex justify-center items-center mb-3 rounded-full p-5 ${homeStyle.circle}`}>
+              <div className={`${homeStyle.icon}`}><MdOutlineSlowMotionVideo /></div>
+                <div className={`${homeStyle.circletxt}`}>2D Animation</div>
+            </div>
         </div>
       </div>
       {/* get in touch */}
