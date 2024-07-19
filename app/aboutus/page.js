@@ -74,11 +74,15 @@ const page = () => {
         <div className="bg-rose-500 h-[50rem] mb-10 mx-[20rem] flex p-2">
            {/* image div */}
            <div className="flex items-center justify-center w-1/2 space-x-10 bg-purple-400 ">
-               <div className="relative bg-zinc-900 h-[80%] w-[25%] rounded-xl  ">
-                 {/* <Image src={fight} fill className='h-[100rem] object-none bg-red-400   w-[22.2rem] ' /> */}
+               <div className="relative bg-zinc-900 h-[80%] w-[25%] rounded-xl overflow-hidden  ">
+                 <div className="absolute h-full w-[22.3rem] z-10 opacity-[0.9]  bg-gradient-to-r from-red-500 via-yellow-500 to-blue-500 ">
+                    <Image src={fight} fill className='object-cover w-full h-full' />
+                 </div>
                </div>
-               <div className="relative bg-zinc-900 h-[80%] w-[25%] rounded-xl overflow-hidden">
-                 {/* <Image src={fight} className='h-[39.1rem]   w-[22.2rem] right-20  a  bsolute' /> */}
+               <div className="relative bg-zinc-900 h-[80%] w-[25%] rounded-xl overflow-hidden ">
+                <div className="absolute h-full w-[22.3rem] z-10 opacity-[0.9] right-0  bg-gradient-to-r from-red-500 via-yellow-500 to-blue-500 ">
+                     <Image src={fight} fill className='object-cover w-full h-full' />
+                  </div>
                </div>
            </div>
            {/* input div */}
