@@ -27,7 +27,7 @@ const Footer = () => {
      {/* lower section */}
      <div className="grid w-full place-items-center">
         <div className="w-[70%]">
-            <ul className='flex mt-16 text-xl font-semibold justify-evenly '>
+            <ul className='flex mt-16 ml-8 text-xl font-semibold justify-evenly '>
                 <li className='cursor-pointer'>Home</li>
                 <li className='cursor-pointer'>About</li>
                 <a href='/projects'><li className='cursor-pointer'>Our Projects</li></a>

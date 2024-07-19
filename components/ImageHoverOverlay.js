@@ -1,11 +1,11 @@
 // components/ImageHoverOverlay.js
 import styles from '../styles/home.module.css';
 import Image from 'next/image';
-import cn from 'classnames';
+// import cn from 'classnames';
 
-const ImageHoverOverlay = ({ src, alt, overlayText, width, height, right, left}) => {
+const ImageHoverOverlay = ({ src, alt, overlayText, className}) => {
   return (
-    <div className={styles.imageContainer} style={{width, height, right, left}}>
+    <div className={`${styles.imageContainer} ${className}`} >
       <Image src={src} alt={alt} className={styles.image} layout="fill" objectFit="cover"/>
       <div className={styles.overlay}>
         <div className={styles.text}>{overlayText}</div>

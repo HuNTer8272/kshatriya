@@ -18,7 +18,7 @@ const HomePageNavbar = () => {
     <div className="flex items-center justify-center space-x-10 bg-">
       <div className="">
         <ul className='flex text-[1rem] font-semibold uppercase space-x-8 '>
-          <a href="">
+          <a href="/">
           <li className="relative after:bg-white cursor-pointer after:content-[''] after:transition-all after:ease-in-out hover:after:w-full after:-bottom-1 after:left-0 after:absolute after:w-[0px] after:h-[2px]">Home</li>
           </a>
           <a href="/projects">
@@ -29,7 +29,7 @@ const HomePageNavbar = () => {
           </a>
         </ul>
       </div>
-       <LuMenu className='text-[2rem]   font-semibold cursor-pointer'/>
+      {/* <LuMenu className='text-[2rem]   font-semibold cursor-pointer'/> */}
     </div>
   </nav>
   )

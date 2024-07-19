@@ -27,5 +27,12 @@ import volcano from "../Images/volcano.svg"
 import lacoste from "../Images/lacoste.svg"
 import spiderverse from "../Images/spiderverse.svg"
 import saraswati from "../Images/saraswati.svg"
+import donats from "../Images/donats.svg"
+import cars3 from "../Images/cars3.svg"
+import stormy_night from "../Images/stormy_night.svg"
+import storyboard_stormy_nights from "../Images/storyboard_stormy_nights.svg"
+import storyboard_puss_n_boots from "../Images/storyboard_puss_n_boots.svg"
+import storyboard_traveller from "../Images/storyboard_traveller.svg"
 
-export {logo,volcano,lacoste,spiderverse,saraswati, mercedes_poster,music_show_poster,ganpati,golden_mask,cat,krishina,krishina_fire, sneaker_poster_yellow,hell_poster,rolex_poster, airpods_poster,astorn_matin_poster,sneaker_poster_blue, title_image,reel_image,logo_black,title_image_black,fight,yellow_poster,blue_poster,antharamba_gif}
+
+export {logo,volcano,cars3,stormy_night,storyboard_stormy_nights,storyboard_traveller,storyboard_puss_n_boots,donats, lacoste,spiderverse,saraswati, mercedes_poster,music_show_poster,ganpati,golden_mask,cat,krishina,krishina_fire, sneaker_poster_yellow,hell_poster,rolex_poster, airpods_poster,astorn_matin_poster,sneaker_poster_blue, title_image,reel_image,logo_black,title_image_black,fight,yellow_poster,blue_poster,antharamba_gif}
