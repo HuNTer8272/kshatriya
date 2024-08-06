@@ -6,7 +6,7 @@ import { LuMenu } from "react-icons/lu";
 
 const Navbar= () => {
   return (
-    <nav className='flex justify-between w-full p-3 px-5 isolate'>
+    <nav className='flex justify-between w-full p-2 px-5 isolate'>
 
     {/* logo and title */}
     <div className="flex items-center bg-transparent bg-purple-400 ">
@@ -29,7 +29,7 @@ const Navbar= () => {
           </a>
         </ul>
       </div>
-       <LuMenu className='text-[2rem]   font-semibold cursor-pointer'/>
+       {/* <LuMe  nu className='text-[2rem]   font-semibold cursor-pointer'/> */}
     </div>
   </nav>
   )

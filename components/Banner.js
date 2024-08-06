@@ -6,7 +6,7 @@ import { FaRegPlayCircle } from "react-icons/fa";
 
 const Banner = () => {
     const handleClick = () =>{
-        const url = 'https://www.youtube.com/@kshatriya_studios';
+        const url = 'https://www.youtube.com/watch?v=khYLOBrhZvk';
         window.open(url, '_blank', '');
     }
   return (

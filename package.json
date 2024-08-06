@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "blurhash": "^2.0.5",
     "classnames": "^2.5.1",
+    "framer-motion": "^11.3.21",
     "next": "14.2.4",
     "react": "^18",
+    "react-blurhash": "^0.3.0",
     "react-dom": "^18",
     "react-icons": "^5.2.1",
     "vercel": "^34.2.7"

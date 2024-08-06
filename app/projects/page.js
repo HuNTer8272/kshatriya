@@ -21,13 +21,15 @@ import { golden_mask } from '@/helper/ImageImports';
 import Image from 'next/image';
 import Banner from '@/components/Banner';
 import ImageHoverOverlay from '@/components/ImageHoverOverlay';
+import Navbar from '@/components/Navbar';
 
 const page = () => {
     return(
         <>
-            <Header/>
-            <Banner/>
-            <div className=' w-screen flex flex-col bg-[#090909] overflow-hidden'>
+            <Navbar/>
+            {/* <Header/> */}
+            {/* <Banner/> */}
+            <div className='flex flex-col w-screen overflow-hidden '>
                 {/*3D Div */}
                 <div className="bg- mx-[12rem]  mt-[5rem] mb-[2rem] flex justify-center space-x-5 items-center">
                   <div className="bg-[#828282] w-[calc(98%-11rem)] h-[1px]"></div>
@@ -38,8 +40,10 @@ const page = () => {
                         <ImageHoverOverlay 
                             src={donats} 
                             alt="Descriptive Alt Text" 
-                            overlayText="Kshatriya Studios" 
+                            overlayText="heavenly donuts" 
+                            catg={'3d'}
                             className={'w-full h-full text-2xl font-semibold '}
+                            hash={'LGPW@c.S^SIT%}%eRhNa}^I,K0%3'}
                         />
                         
                     </div>
@@ -47,8 +51,10 @@ const page = () => {
                     <ImageHoverOverlay 
                             src={stormy_night} 
                             alt="Descriptive Alt Text" 
-                            overlayText="Kshatriya Studios" 
+                            overlayText="stormy night" 
+                            catg={'3d'}
                             className={'w-full h-full text-2xl font-semibold '}
+                            hash={'L384oW_M-g000G00^y-:t-$mtK9b'}
                         />
                          
                     </div>
@@ -56,8 +62,10 @@ const page = () => {
                     <ImageHoverOverlay 
                             src={golden_mask} 
                             alt="Descriptive Alt Text" 
-                            overlayText="Kshatriya Studios" 
+                            overlayText="Visualizer" 
+                            catg={'3d'}
                             className={'w-full h-full text-2xl font-semibold '}
+                            hash={'L53b]+T2A1%MpfbwWUkXD+sR-3NJ'}
                         />                        
                     </div>
                    
@@ -65,8 +73,10 @@ const page = () => {
                         <ImageHoverOverlay 
                                 src={cars3} 
                                 alt="Descriptive Alt Text" 
-                                overlayText="Kshatriya Studios" 
+                                overlayText="cars3" 
+                                catg={'motion poster | 3d'}
                                 className={'w-full h-full bg-contain text-2xl font-semibold '}
+                                hash={'L45z{=of0LV[R*j[soay0yWB}toy'}
                             />                        
                     </div>
                 </div>
@@ -81,8 +91,10 @@ const page = () => {
                         <ImageHoverOverlay 
                                 src={ganpati} 
                                 alt="Descriptive Alt Text" 
-                                overlayText="Kshatriya Studios" 
+                                overlayText="concept design" 
+                                catg={'digital illustration'}
                                 className={'w-full h-full text-2xl font-semibold '}
+                                hash={'LQIobsj_9tR*EFoNxljcK6R*NLsq'}
                             />
 
                         
@@ -91,8 +103,10 @@ const page = () => {
                         <ImageHoverOverlay 
                                 src={krishina_fire} 
                                 alt="Descriptive Alt Text" 
-                                overlayText="Kshatriya Studios" 
+                                overlayText="poster" 
+                                catg={'digital illustration'}
                                 className={'w-full h-full text-2xl font-semibold '}
+                                hash={'LBLLmi}*^Yxt1kJ*RPRn06wf9dw|'}
                             />
 
                         
@@ -101,8 +115,10 @@ const page = () => {
                         <ImageHoverOverlay 
                                 src={cat} 
                                 alt="Descriptive Alt Text" 
-                                overlayText="Kshatriya Studios" 
+                                overlayText="concept design"
+                                catg={'digital illustration'} 
                                 className={'w-full h-full text-2xl font-semibold '}
+                                hash={'L58N;SUu4Ou6ByVt;AcFv$OWEyr;'}
                             />
                     </div>
                     
@@ -110,8 +126,10 @@ const page = () => {
                         <ImageHoverOverlay 
                                 src={krishina} 
                                 alt="Descriptive Alt Text" 
-                                overlayText="Kshatriya Studios" 
+                                overlayText="poster"
+                                catg={'digital illustration'} 
                                 className={'w-full h-full text-2xl font-semibold '}
+                                hash={'LHAnM+n4Ejki.mxvxBSwp_t9w0jF'}
                             />
 
                         
@@ -120,8 +138,10 @@ const page = () => {
                         <ImageHoverOverlay 
                                 src={saraswati} 
                                 alt="Descriptive Alt Text" 
-                                overlayText="Kshatriya Studios" 
+                                overlayText="concept design" 
+                                catg={'digital illustration'}
                                 className={'w-full h-full text-2xl font-semibold '}
+                                hash={'LJCSKsHX8wE;~jM|IARprwbvR$sl'}
                             />
 
                         
@@ -130,8 +150,10 @@ const page = () => {
                         <ImageHoverOverlay 
                                 src={fight} 
                                 alt="Descriptive Alt Text" 
-                                overlayText="Kshatriya Studios" 
+                                overlayText="concept design" 
+                                catg={'digital illustration'}
                                 className={'w-full h-full text-2xl font-semibold '}
+                                hash={'LfCZVtCTnLvzE_xHn%NFNErqRjaK'}
                             />
 
                         
@@ -148,64 +170,80 @@ const page = () => {
                         <ImageHoverOverlay 
                                 src={music_show_poster} 
                                 alt="Descriptive Alt Text" 
-                                overlayText="Kshatriya Studios" 
+                                overlayText="poster" 
+                                catg={'music fesitval'}
                                 className={'w-full h-full text-2xl font-semibold '}
+                                hash={'LMFgPi-txrsjJfo$W-W9O5t6bIf8'}
                             /> 
                     </div>
                     <div className=' bg-zinc-900 h-[26rem] rounded-xl '>
                         <ImageHoverOverlay 
                                 src={mercedes_poster} 
                                 alt="Descriptive Alt Text" 
-                                overlayText="Kshatriya Studios" 
+                                overlayText="poster"
+                                catg={'mercedes 300 sl'} 
                                 className={'w-full h-full text-2xl font-semibold '}
+                                hash={'L56@{1~qt7xuo}M|M{M{4n9FM{M|'}
                             />  
                     </div>
                     <div className=' bg-zinc-900 h-[26rem] rounded-xl '>
                         <ImageHoverOverlay 
                                 src={airpods_poster} 
-                                alt="Descriptive Alt Text" 
-                                overlayText="Kshatriya Studios" 
+                                alt="image" 
+                                overlayText="poster"
+                                catg={'apple air pods '} 
                                 className={'w-full h-full text-2xl font-semibold '}
+                                hash={'L15q|sof00WB%MxuD%IU00ay_3of'}
                             />                        
                     </div>
                     <div className='row-span-2 bg-zinc-900 h-[53rem] rounded-xl '>
                         <ImageHoverOverlay 
                                 src={sneaker_poster_blue} 
-                                alt="Descriptive Alt Text" 
-                                overlayText="Kshatriya Studios" 
+                                alt="image" 
+                                overlayText="poster"
+                                catg={'nike'} 
                                 className={'w-full h-full text-2xl font-semibold '}
+                                hash={'L5EM?$e.00IV?]kC?]oz00Rj=c%L'}
                             />                        
                     </div>
                     <div className='row-span-2 bg-zinc-900 h-[53rem] rounded-xl '>
                         <ImageHoverOverlay 
                                 src={sneaker_poster_yellow} 
-                                alt="Descriptive Alt Text" 
-                                overlayText="Kshatriya Studios" 
+                                alt="image" 
+                                overlayText="poster" 
+                                catg={'onisuka tiger'}
                                 className={'w-full h-full text-2xl font-semibold '}
+                                hash={'L6IqSy-Up^%L~paz$fIVB:R*MKt6'}
                             />
                     </div>
                     <div className=' bg-zinc-900 h-[26rem] rounded-xl '>
                         <ImageHoverOverlay 
                                     src={astorn_matin_poster} 
-                                    alt="Descriptive Alt Text" 
-                                    overlayText="Kshatriya Studios" 
+                                    alt="image" 
+                                    overlayText="poster"
+                                    catg={'aston martin'}
+                                    hash={'L34NS7a34WpGEfiLqJZ*MLcVy:b['}
                                     className={'w-full h-full text-2xl font-semibold '}
                                 />
                     </div>
                     <div className='row-span-2 bg-zinc-900 h-[53rem] rounded-xl '>
                         <ImageHoverOverlay 
                                     src={lacoste} 
-                                    alt="Descriptive Alt Text" 
-                                    overlayText="Kshatriya Studios" 
+                                    alt="image" 
+                                    overlayText="poster" 
+                                    catg={'lacoste'}
+                                    hash={'L3CF@QDm000}{NMzXz5900]YAdE1'}
                                     className={'w-full h-full text-2xl font-semibold '}
                                 />
                     </div>
                     <div className=' bg-zinc-900 h-[26rem] rounded-xl '>
                         <ImageHoverOverlay 
                                     src={rolex_poster} 
-                                    alt="Descriptive Alt Text" 
-                                    overlayText="Kshatriya Studios" 
-                                    className={'w-full h-full text-2xl font-semibold '}
+                                    alt="image" 
+                                    overlayText="poster" 
+                                    catg={'rolex'}
+                                    hash={'L93n%:n,IUbaYwf+jIaLMxWBrdjZ'}
+                                    className={'w-full h-full text-2xl font-semibold '}  
                                 />
                     </div>
                    
@@ -220,24 +258,30 @@ const page = () => {
                         <ImageHoverOverlay 
                                     src={storyboard_stormy_nights} 
                                     alt="Descriptive Alt Text" 
-                                    overlayText="Kshatriya Studios" 
+                                    overlayText="storyboarding" 
+                                    catg={'stormy night'}
                                     className={'w-full h-full text-2xl font-semibold '}
+                                    hash={'LIE|M5yDi_IUDjMxxuxu_4t7WBWB'}
                                 />
                     </div>
                     <div className=' bg-zinc-900 h-[26rem] rounded-xl '>
                         <ImageHoverOverlay 
                                     src={storyboard_puss_n_boots} 
                                     alt="Descriptive Alt Text" 
-                                    overlayText="Kshatriya Studios" 
+                                    overlayText="storyboarding"
+                                    catg={'puss in boots'} 
                                     className={'w-full h-full text-2xl font-semibold '}
+                                    hash={'L5Fh*o^j-.S5GtI-w_S5?K-BWARj'}
                                 />
                     </div>
                     <div className=' bg-zinc-900 h-[26rem] rounded-xl '>
                         <ImageHoverOverlay 
                                     src={storyboard_traveller} 
                                     alt="Descriptive Alt Text" 
-                                    overlayText="Kshatriya Studios" 
+                                    overlayText="storyboarding" 
+                                    catg={'the traveler'}
                                     className={'w-full h-full text-2xl font-semibold '}
+                                    hash={'LCLg^ZIT9F-;~qIU9F%M%Mog%MV@'}
                                 />
                     </div>
                     {/* <ImageHoverOverlay 
